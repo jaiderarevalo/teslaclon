@@ -1,0 +1,28 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+  title="Model Y"
+  subtitle=" Programe una prueba de conducción hoy mismo"
+  color="#000"
+>
+  <div slot="footer" class="gap-x-5 flex mx-auto">
+    <a
+      class="text-gray-700 border-2 border-gray-500 py-2 px-10 rounded-sm hover:bg-white hover:text-black duration-500 transition-colors backdrop-blur-sm"
+      href="#">Explorar Inventario</a
+    >
+    <a
+      class="text-gray-700 border-2 border-gray-500 py-2 px-10 rounded-sm hover:bg-white hover:text-black duration-500 transition-colors backdrop-blur-sm"
+      href="#">Pedido personalizado</a
+    >
+  </div>
+  <img slot="background" class="object-cover h-full w-full" alt="Model-Y" src={"/model-y.avif"} />
+  <!-- loop para que se repita el video, autoplay reproduszca -->
+</Section>
+
+<section
+  class="landing-section bg-black h-screen w-screen text-center relative overflow-hidden"
+  data-header-color="#000"
+>
+</section>
